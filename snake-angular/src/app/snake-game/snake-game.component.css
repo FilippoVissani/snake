@@ -1,21 +1,21 @@
-.game-container {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  border: 1px solid #ccc;
-  outline: none;
+div {
+  text-align: center;
+  margin-top: 20px;
 }
 
+canvas {
+  border: 1px solid #333;
+  background-color: #f1f1f1;
+}
+
+/* Styling for the snake segments */
 .snake-segment {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: green;
+  fill: green;
+  stroke: #333;
 }
 
+/* Styling for the food item */
 .food {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: red;
+  fill: red;
+  stroke: #333;
 }
