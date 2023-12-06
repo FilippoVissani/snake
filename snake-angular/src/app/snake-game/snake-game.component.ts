@@ -5,7 +5,7 @@ import { Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild } fro
   templateUrl: './snake-game.component.html',
   styleUrls: ['./snake-game.component.css']
 })
-export class SnakeComponent implements OnInit {
+export class SnakeGameComponent implements OnInit {
   @ViewChild('snakeCanvas', { static: true }) canvas!: ElementRef<HTMLCanvasElement>;
 
   private context!: CanvasRenderingContext2D;
