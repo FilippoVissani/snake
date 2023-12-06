@@ -1,0 +1,4 @@
+<div class="game-container" (keydown)="changeDirection($event.key)" tabindex="0">
+  <div *ngFor="let segment of snake" class="snake-segment" [style.left.px]="segment.x * 20" [style.top.px]="segment.y * 20"></div>
+  <div class="food" [style.left.px]="food.x * 20" [style.top.px]="food.y * 20"></div>
+</div>
